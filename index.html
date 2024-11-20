@@ -1,59 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    section{
-      display: flex;
-      width: 30rem;
-      position: relative;
-      top: 10rem;
-      margin: 0 auto;
-    
-      
-    }
-    .left{
-      background-color: #1C1938;
-      width: 50%;
-      color: white;
-    }
-    .right{
-      width: 50%;
-    }
-    .title{
-      font-size: 2rem;
-      padding: 2rem;
-    }
-    img{
-      width: 28rem;
+    <title>Frontend Mentor | Stats preview card component</title>
 
-    }
-  </style>
-</head>
-<body style="background-color: #0A0C1B;">
-<section>
-  <div class="left">
-    <div class="title">Get <span>insights </span>that help your business grow.</div>
-    <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-      experience, and overall efficiency.</p>
-    <div><h3></h3></div>
-    <div><h3></h3></div>
-    <div><h3></h3></div>
-  </div>
-  <div class="right">
-    <img src="/images/image-header-desktop.jpg" alt="">
-  </div>
-</section>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      section {
+        display: flex;
+        width: 57rem;
+        position: relative;
+        top: 10rem;
+        margin: 0 23rem;
+      }
+      .left {
+        background-color: #1c1938;
+        width: 50%;
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+      }
+      .right {
+        width: 50%;
+      }
+      .title {
+        font-size: 2rem;
+        margin: 2rem;
+        margin-bottom: 0;
+      }
+      img {
+        width: 28rem;
+      filter: brightness(30%) sepia(1) hue-rotate(250deg) saturate(500%);
+      }
+      .des {
+    margin: 2rem 4rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 14px;
+    font-weight: 100;
+    color: #afaec3;
+}
+      .features {
+        font-weight: 700;
+        color: #afaec3;
+        font-size: 10px;
+      }
+      .info{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 2rem;
+      }
+    </style>
+  </head>
+  <body style="background-color: #0a0c1b">
+    <section>
+      <div class="left">
+        <div class="title">
+          Get <span style="color: #a661d8">insights </span>that help your
+          business grow.
+        </div>
+        <p class="des">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="info">
+          <div>
+            <h3>10k+</h3>
+            <p class="features">COMPANIES</p>
+          </div>
+          <div>
+            <h3>314</h3>
+          <p class="features">COMPANIES</p>
 
+          </div>
 
-</body>
+          <div>
+            <h3>12M+</h3>
+          <p class="features">COMPANIES</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <img src="/images/image-header-desktop.jpg" alt="" />
+      </div>
+    </section>
+  </body>
 </html>
 <!-- 
 Get insights that help your business grow.
