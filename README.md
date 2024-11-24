@@ -1,2 +1,3 @@
 # Stats-Card
-A challenge on FrontEnd Mentor
+A challenge on FrontEnd Mentor.
+
